@@ -1,0 +1,335 @@
+#front-image{
+    float: right;
+    width: 400px;
+    grid-area: auto;
+    background: -moz-linear-gradient(green,blue);
+    box-shadow:indianred;
+    box-sizing: border-box;
+    background-position: 6px;
+    margin-top: -200px;
+    margin-left: -200px;
+    position:relative;
+    
+}
+#logo-image{
+    float:left;
+    height:100px;
+    margin-top:-250px;
+    position: relative;
+}
+body{
+    color:black;
+}
+section {
+    height: 100vh;
+    
+}
+#home{
+    background-color:papayawhip;
+    position: relative; 
+    height: 100vh;
+}
+#name{
+    
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 8000;
+    font-display: swap;
+    font: bolder;
+    color: brown;
+    text-align: left;
+    top: 0;
+    left: 0;
+    transform: translate(2%, 150%);
+    font-weight: bold;
+    }
+#phrase{
+    transform: translate(2%, 400%);
+    font-style: italic;
+    color:crimson;
+}
+.buttonstyle {
+    padding: 10px 50px;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    font-size: 16px;
+    transform: translate(10%, 250%);
+}
+
+.buttonstyle:hover {
+    background-color: red;
+}
+    
+    
+    
+    
+    
+
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:papayawhip;
+    color: white;
+    padding: 10px;
+    /* Add other styling as needed */
+}
+nav a {
+    padding-right: 10px; /* Adjust this value to control the spacing */
+    text-decoration: wavy;
+    text-shadow:red;
+    color: brown;
+}
+.navdesign a:hover{
+    background-color:azure;
+}
+
+/*ABOUTS PAGE */
+#aboutme{
+    background-color: azure;
+}
+.about-box {
+    background-color: papayawhip;
+    padding: 20px;
+    border: 5px double black;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    max-width: 1000px;
+    text-align: center; /* Adjust as needed */
+}
+
+.about-box h3,
+.about-box h4
+{
+    margin: 10px 0;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:maroon;
+    font-size: medium;
+    font-style: italic;
+} 
+.about-box h5{
+    margin: 10px 0;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:teal;
+    font-size: medium;
+    font-style: italic;
+}
+
+
+
+.skills-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.skills-heading {
+    cursor: pointer;
+    color:darkblue; /* Choose your preferred color */
+    display: flex;
+    align-items: center;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    background-color:papayawhip;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+    min-width: 150px;
+    display: none;
+}
+
+details[open] .skills-list {
+    display: block;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: "\25BC"; /* Unicode character for down arrow */
+    margin-right: 5px;
+}
+
+.softskills-dropdown {
+    position: relative;
+    display: inline-block;
+    display: list-item;
+    
+}
+
+/*EDUCATION*/
+
+
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px 0;
+    border-left: 2px solid black; 
+    margin-bottom: 20px;
+    
+}
+
+.timeline-year {
+    font-size: 16px;
+    font-weight: bold;
+    color:deepskyblue;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.timeline-content {
+    padding-left: 30px;
+}
+
+.timeline-content h3 {
+    margin: 0;
+}
+
+.timeline-content p {
+    margin: 5px 0;
+    color: maroon;
+    font-style: italic;
+}
+#education{
+    background-color: papayawhip;
+}
+#eduhead{
+    font-style: italic;
+    color: crimson;
+    background-color:azure;
+}
+#educontent{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: brown;
+}
+
+.timeline-item {
+    
+    transition:box shadow ease-in-out;
+}
+
+.timeline-item:hover {
+    box-shadow: 0 0 200px rgba(52, 152, 219, 0.7); 
+}
+
+/*ACHIEVEMENTS*/
+#achievements{
+    background-color: azure;
+}
+#achievehead{
+    font: 1000;
+    font-style: italic;
+    color: darkmagenta;
+}
+#achievehead {
+    
+    transition:box shadow ease-in-out;
+}
+
+#achievehead:hover {
+    box-shadow: 0 0 200px rgba(219, 200, 52, 0.865); 
+}
+
+#achieve-image{
+    width: 170px;
+    margin-left: 200px;
+    
+    
+}
+
+#achieve-image img {
+    transition: transform 0.3s ease;
+}
+
+#achieve-image:hover {
+    transform: scale(2.2); 
+}
+/*PROJECTS*/
+#projects{
+    background-color: papayawhip;
+}
+#main-head{
+    color: darkblue;
+    font-style: italic;
+    font-size:xx-large;
+}
+#sub-head{
+    color:dodgerblue;
+    font-style: oblique;
+}
+#pro-content{
+    color: maroon;
+    font-style: italic;
+}
+#project-image{
+    width: 250px;
+    margin-left: 200px;
+}
+#project-image {
+    
+    transition:box shadow ease-in-out;
+}
+
+#project-image:hover {
+    box-shadow: 0 0 200px rgba(52, 197, 219, 0.865); 
+}
+#contact{
+    background-color: azure;
+}
+#contact-intro{
+    font-style: italic;
+    color:maroon;
+}
+#mail-intro{
+    font-style: oblique;
+    color:maroon;
+}
+#mail{
+    font-style: oblique;
+    color: slateblue;
+}
+#contact-image{
+    margin-left: 200px;
+    transition:box shadow ease-in-out;
+}
+#contact-image:hover {
+    box-shadow: 0 0 200px rgba(52, 197, 219, 0.865); 
+}
+#contact-image2{
+    width: 150px;
+    height: 100px;
+    margin-left: 200px;
+    transition:box shadow ease-in-out;
+}
+#contact-image2:hover {
+    box-shadow: 0 0 200px rgba(52, 197, 219, 0.865); 
+}
+#contact-image3{
+    width: 150px;
+    margin-left: 200px;
+    transition:box shadow ease-in-out;
+}
+#contact-image3:hover {
+    box-shadow: 0 0 200px rgba(52, 197, 219, 0.865); 
+}
+
